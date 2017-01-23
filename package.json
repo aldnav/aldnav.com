@@ -1,0 +1,27 @@
+{
+  "name": "aldnavcom",
+  "version": "1.0.0",
+  "description": "Personal website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/aldnav/aldnav.com.git"
+  },
+  "keywords": [
+    "aldnav.com",
+    "aldnav",
+    "aldrinnavarro"
+  ],
+  "author": "Aldrin A. Navarro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aldnav/aldnav.com/issues"
+  },
+  "homepage": "https://github.com/aldnav/aldnav.com#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
