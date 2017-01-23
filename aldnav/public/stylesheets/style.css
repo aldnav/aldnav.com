@@ -1,8 +1,63 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+html, body {
+  font: 14px "Fira", Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0 auto;
+  overflow: hidden;
 }
+
+@font-face {
+  font-family: 'Fira';
+  src: url('../fonts/FiraCode-Regular.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Fura';
+  src: url('../fonts/FuraMono-Regular Powerline.otf')  format('opentype');
+}
+
 
 a {
   color: #00B7FF;
+}
+
+.wrapper {
+    background-color: gray;
+}
+
+.section--page {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.home--art {
+    order: 1;
+    background-image: url("https://drscdn.500px.org/photo/55489636/m%3D2048/398a65d40631e29db3b56a588c1412f1");
+    background-size: cover;
+    flex: 0 0 70%;
+}
+
+.home--intro {
+    order: 2;
+    background-color: white;
+    padding: 20px;
+    flex: 0 0 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home--intro > * {
+    align-self: center;
+}
+
+.prof-pic {
+    width: 120px;
+    height: 120px;
+    background-color: gray;
+    border-radius: 60px;
+}
+.prof-detail {
+    text-align: justify;
+    max-width: 300px;
+    font-size: 14px;
 }
