@@ -61,3 +61,34 @@ a {
     max-width: 300px;
     font-size: 14px;
 }
+.prof-social {
+    display: flex;
+}
+.prof-social .link {
+    flex: 1;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: gray;
+    transition: 0.2s all ease-in-out;
+}
+.prof-social .link:hover {
+    transform: scale(1.2);
+}
+.link--github {
+    background-image: url('../images/github.png');
+    background-size: cover;
+}
+.link--linkedin {
+    background-image: url('../images/linkedin.png');
+    background-size: cover;
+}
+.link--upwork {
+    background-image: url('../images/upwork.png');
+    background-size: cover;
+}
+.link--comics {
+    background-image: url('../images/comics.png');
+    background-size: cover;
+}
